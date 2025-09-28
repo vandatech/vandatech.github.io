@@ -4,322 +4,339 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vijay Mistry CV</title>
+    <title>Vijay Mistry Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css?v=1.1">
 </head>
 
 <body>
-    <div class="cv-container">
-
-<!-- Header -->
-<header>
-    <h1>Vijay Mistry</h1>
-    <h2>Full Stack Developer / Delivery Manager</h2>
-</header>
-
-<!-- Profile -->
-<div class="profile">
-    <div class="info">
-        <p><strong>GitHub:</strong> <a href="https://github.com/vandatech">github.com/vandatech</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vandatech/">linkedin.com/in/vandatech</a></p>
-    </div>
-</div>
-
-        <!-- Overview -->
-        <section class="overview">
-            <h3>Overview</h3>
-            <p>Experienced full stack software developer and development manager. Equally comfortable coding CSS or Java, I have over twenty-five years experience building software across banking, media, and retail industries.</p>
-        </section>
-
-        <!-- Experience -->
-        <section class="experience">
-            <h3>Experience</h3>
-
-            <!-- Delivery Manager -->
-            <div class="job">
-                <h4>Delivery Manager</h4>
-                <h5>HSBC | 2023 - Present</h5>
-                <ul class="responsibilities">
-                    <li>Grew a team from seven to around forty developers across three sites (local, nearshore, and offshore).</li>
-                    <li>Responsible for delivering a new suite of tools for the front-office team to help manage financial resources and support multiple programmes, including TWD and FRTB.</li>
-                    <li>Lead a team of approximately forty developers across multiple locations.</li>
-                    <li>Manage an annual budget of around <span class="currency">USD 4,000,000</span>.</li>
+    <header class="header">
+        <div class="container">
+            <h1><a href="/index.html">Vijay Mistry</a></h1>
+            <h2>Full Stack Developer / Delivery Manager</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container flex-container">
+            <div class="bio">
+                <h3>About Me</h3>
+                <p>Experienced full stack software developer and development manager. Equally comfortable coding CSS or Java, I have over twenty-five years experience building software across banking, media, and retail industries.</p>
             </div>
+        </div>
+    </section>
 
-            <!-- Software Developer -->
-            <div class="job">
-                <h4>Software Developer - Permanent</h4>
-                <h5>HSBC | 2020 - 2023</h5>
-                <ul class="responsibilities">
-                    <li>Worked on multiple projects in Wholesale Banking related to onboarding and KYC functions as part of the <a href="https://smartserve.HSBC" target="_blank">Smartserve project</a>.</li>
-                </ul>
-                <ul class="tech">
-                    <li>Java</li>
-                    <li>React</li>
-                    <li>PostgreSQL</li>
-                </ul>
-            </div>
 
-            <!-- Senior Software Developer -->
-            <div class="job">
-                <h4>Senior Software Developer - Contract</h4>
-                <h5>HSBC | 2016 - 2020</h5>
-                <ul class="responsibilities">
-                    <li>Worked as part of the digital transformation team, primarily on the Salesbot and Vida chatbots.</li>
-                    <li>Vida & Salesbot: Built using C#, ReactJS, AngularJS, and Elasticsearch, delivered through either OpenFin or Symphony.</li>
-                    <li>Transactional Alert: Developed a Windows service using C#, MS SQL Server, and ReactJS to process large volumes of data and send alerts.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C# .NET</li>
-                    <li>ReactJS</li>
-                    <li>AngularJS</li>
-                    <li>TeamCity</li>
-                    <li>Elasticsearch</li>
-                    <li>OpenFin</li>
-                    <li>Symphony</li>
-                    <li>MS SQL Server</li>
-                </ul>
-            </div>
+<!-- CV Section -->
+<section id="cv" class="section cv">
+    <div class="container">
+        <h3>Curriculum Vitae</h3>
 
-            <!-- Barclays Bank (Wealth) -->
-            <div class="job">
-                <h4>Contract Developer</h4>
-                <h5>Barclays Bank (Wealth) | June 2014 - July 2016</h5>
-                <ul class="responsibilities">
-                    <li>Worked on the Portfolio Review Tool, a web-based application for portfolio management with users in London, Geneva, Monaco, and Jersey.</li>
-                    <li>Developed a responsive Angular front end rendering JSON served by NancyFx MVC API from MongoDB backend.</li>
-                    <li>Implemented commands and queries via NServiceBus to distributed services backed by SQL Server.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C# .NET 4.5</li>
-                    <li>HTML5</li>
-                    <li>SQL</li>
-                    <li>MongoDB</li>
-                    <li>CQRS & Event Sourcing</li>
-                    <li>Angular</li>
-                    <li>NancyFx</li>
-                    <li>Owin</li>
-                    <li>Bootstrap</li>
-                    <li>Karma</li>
-                    <li>NUnit</li>
-                    <li>Coypu</li>
-                    <li>NEventStore/NServiceBus</li>
-                    <li>SpecFlow</li>
-                    <li>Autofac</li>
-                    <li>AutoMapper</li>
-                    <li>FluentValidation</li>
-                    <li>Git/Bitbucket</li>
-                </ul>
-            </div>
+        <!-- Delivery Manager -->
+        <div class="job">
+            <h4>Delivery Manager</h4>
+            <h5>HSBC | 2023 - Present</h5>
+            <ul class="responsibilities">
+                <li>Grew a team from seven to around forty developers across three sites (local, nearshore, and offshore).</li>
+                <li>Delivered a suite of tools for the front-office team supporting multiple programmes (TWD, FRTB).</li>
+                <li>Managed an annual budget of around <span class="currency">USD 4,000,000</span>.</li>
+            </ul>
 
-            <!-- Barclays Investment Bank -->
-            <div class="job">
-                <h4>Contract Developer</h4>
-                <h5>Barclays Investment Bank | Aug 2013 - June 2014</h5>
-                <ul class="responsibilities">
-                    <li>Worked on Newcastle application calculating risk-weighted assets for Basel III framework.</li>
-                    <li>Developed new features, extended existing calculations, and provided support as required.</li>
-                    <li>Implemented Git workflows for a globally distributed team.</li>
-                    <li>Extensively developed a .NET to Oracle integration layer.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C# 4.0</li>
-                    <li>SQL Server 2012</li>
-                    <li>NUnit + Fluent Assertions</li>
-                    <li>SpecFlow</li>
-                    <li>NServiceBus</li>
-                    <li>Protobuf</li>
-                    <li>TeamCity</li>
-                    <li>PSake</li>
-                    <li>PowerShell</li>
-                    <li>Git & Stash</li>
-                </ul>
-            </div>
+        </div>
 
-            <!-- Just-Eat 2013 -->
-            <div class="job">
-                <h4>Contract Developer</h4>
-                <h5>Just-Eat | Jan 2013 - July 2013</h5>
-                <ul class="responsibilities">
-                    <li>Platform operations: migrated Just Eat website, services, and apps to AWS solution.</li>
-                    <li>Rewrote Windows apps as services for multiple instances.</li>
-                    <li>Implemented automated deployment with AWS CloudFormation.</li>
-                    <li>Rewrote mailing component using AWS SES.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C#</li>
-                    <li>PowerShell</li>
-                    <li>Git</li>
-                    <li>AWS SES</li>
-                    <li>AWS CloudFormation</li>
-                    <li>NSubstitute</li>
-                    <li>SQL Server</li>
-                    <li>AWS EC2</li>
-                    <li>AWS S3</li>
-                    <li>AWS DynamoDB</li>
-                    <li>TeamCity</li>
-                    <li>Rake</li>
-                    <li>TopShelf</li>
-                </ul>
-            </div>
+        <!-- Software Developer -->
+        <div class="job">
+            <h4>Senior Software Developer - Permanent</h4>
+            <h5>HSBC | 2020 - 2023</h5>
+            <ul class="responsibilities">
+                <li>Worked on multiple projects in Wholesale Banking related to onboarding and KYC functions as part of the <a href="https://smartserve.HSBC" target="_blank">Smartserve project</a>.</li>
+            </ul>
+            <ul class="tech">
+                <li>Java</li>
+                <li>React</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
 
-            <!-- Cocosa Lifestyle -->
-            <div class="job">
-                <h4>Contract Developer</h4>
-                <h5>Cocosa Lifestyle Ltd | Feb 2012 - Oct 2012</h5>
-                <ul class="responsibilities">
-                    <li>Promoted to lead within a month of joining.</li>
-                    <li>Developed new features and supported agile processes.</li>
-                    <li>Mentored junior developers and participated in recruitment.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C#</li>
-                    <li>Episerver</li>
-                    <li>Fluent NHibernate</li>
-                    <li>jQuery</li>
-                    <li>SQL Server 2008</li>
-                    <li>TDD with NUnit & Moq</li>
-                    <li>IOC with Ninject</li>
-                    <li>Team Foundation Server</li>
-                    <li>Cruise Control</li>
-                    <li>MSBuild</li>
-                </ul>
-            </div>
+        <!-- Senior Software Developer -->
+        <div class="job">
+            <h4>Senior Software Developer - Contract</h4>
+            <h5>HSBC | 2016 - 2020</h5>
+            <ul class="responsibilities">
+                <li>Worked as part of the digital transformation team, primarily on the Salesbot and Vida chatbots.</li>
+                <li>Vida & Salesbot: Built using C#, ReactJS, AngularJS, and Elasticsearch, delivered through either the OpenFin container or the Symphony chat client.</li>
+                <li>Transactional Alert: Developed a Windows service using C#, MS SQL Server, and ReactJS to process large volumes of data and send alerts to a notification system.</li>
+            </ul>
+            <ul class="tech">
+                <li>C# .NET</li>
+                <li>ReactJS</li>
+                <li>AngularJS</li>
+                <li>TeamCity</li>
+                <li>Elasticsearch</li>
+                <li>OpenFin</li>
+                <li>Symphony</li>
+                <li>MS SQL Server</li>
+            </ul>
+        </div>
 
-            <!-- Just-Eat 2010-2012 -->
-            <div class="job">
-                <h4>Contract Developer</h4>
-                <h5>Just-Eat | Nov 2010 - Jan 2012</h5>
-                <ul class="responsibilities">
-                    <li>Worked on B2B applications for restaurant and menu management.</li>
-                    <li>Implemented Partner Centre site using MVC3 & CQRS.</li>
-                    <li>Developed discount offer platform for restaurants.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C#</li>
-                    <li>MVC3</li>
-                    <li>Fluent NHibernate</li>
-                    <li>jQuery</li>
-                    <li>SQL Server 2008</li>
-                    <li>TDD</li>
-                    <li>NUnit</li>
-                    <li>Rhino Mocks</li>
-                    <li>Castle Windsor</li>
-                    <li>TeamCity</li>
-                </ul>
-            </div>
+        <!-- Barclays Bank -->
+        <div class="job">
+            <h4>Contract Developer</h4>
+            <h5>Barclays Bank (Wealth) | June 2014 - July 2016</h5>
+            <ul class="responsibilities">
+                <li>Worked on the Portfolio Review Tool, a web-based application to facilitate reviewing the management of portfolios with users in London, Geneva, Monaco, and Jersey.</li>
+                <li>Developed a responsive Angular front end that renders JSON served by a NancyFx MVC API from a MongoDB backend.</li>
+                <li>Implemented commands and queries via NServiceBus to a set of distributed services, backed by SQL Server.</li>
+            </ul>
+            <ul class="tech">
+                <li>C# .NET 4.5</li>
+                <li>HTML5</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>CQRS & Event Sourcing</li>
+                <li>Angular</li>
+                <li>NancyFx</li>
+                <li>Owin</li>
+                <li>Bootstrap</li>
+                <li>Karma</li>
+                <li>NUnit</li>
+                <li>Coypu</li>
+                <li>NEventStore/NServiceBus</li>
+                <li>SpecFlow</li>
+                <li>Autofac</li>
+                <li>AutoMapper</li>
+                <li>FluentValidation</li>
+                <li>Git/Bitbucket</li>
+            </ul>
+        </div>
 
-            <!-- TopGear.com -->
-            <div class="job">
-                <h4>Lead Developer</h4>
-                <h5>TopGear.com | July 2009 - Oct 2010</h5>
-                <ul class="responsibilities">
-                    <li>Led a five-person dev team using TDD and pair programming.</li>
-                    <li>Collaborated with product team to develop site enhancements.</li>
-                    <li>Redeveloped homepage, car data section, news page, and video page.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C# 3.5</li>
-                    <li>NHibernate</li>
-                    <li>jQuery</li>
-                    <li>SQL Server 2005</li>
-                    <li>TDD</li>
-                    <li>NUnit</li>
-                    <li>Rhino Mocks</li>
-                    <li>Akamai CDN</li>
-                    <li>Subversion</li>
-                    <li>TeamCity</li>
-                    <li>Nant</li>
-                </ul>
-            </div>
+        <!-- Barclays Investment Bank -->
+        <div class="job">
+            <h4>Contract Developer</h4>
+            <h5>Barclays Investment Bank | Aug 2013 - June 2014</h5>
+            <ul class="responsibilities">
+                <li>Worked on the Newcastle application in the Financial Control department to calculate risk weighted assets according to Basel III framework using event sourcing and parallel processing.</li>
+                <li>Developed new features, extended existing calculations, and provided support as required.</li>
+                <li>Implemented Git workflows for a globally distributed team.</li>
+                <li>Extensively developed a .NET to Oracle integration layer.</li>
+            </ul>
+            <ul class="tech">
+                <li>C# 4.0</li>
+                <li>SQL Server 2012</li>
+                <li>NUnit + Fluent Assertions</li>
+                <li>SpecFlow</li>
+                <li>NServiceBus</li>
+                <li>Protobuf</li>
+                <li>TeamCity</li>
+                <li>PSake</li>
+                <li>PowerShell</li>
+                <li>Git & Stash</li>
+            </ul>
+        </div>
 
-            <!-- BBC Worldwide -->
-            <div class="job">
-                <h4>Lead Developer - Applications and Web Team</h4>
-                <h5>BBC Worldwide | Apr 2007 - Jul 2009</h5>
-                <ul class="responsibilities">
-                    <li>Led teams of 2-3 developers on web applications.</li>
-                    <li>Worked in small agile teams using TDD and pair programming.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C# 2.0</li>
-                    <li>ASP.NET</li>
-                    <li>NHibernate</li>
-                    <li>SQL Server 2005 & 2000</li>
-                    <li>TDD</li>
-                    <li>NUnit</li>
-                    <li>Rhino Mocks</li>
-                    <li>Subversion</li>
-                    <li>TeamCity</li>
-                    <li>Nant</li>
-                </ul>
-            </div>
+        <!-- Just-Eat (2013) -->
+        <div class="job">
+            <h4>Contract Developer</h4>
+            <h5>Just-Eat | Jan 2013 - July 2013</h5>
+            <ul class="responsibilities">
+                <li>Worked on migrating the Just Eat website, services, and applications to AWS.</li>
+                <li>Rewrote Windows applications as services to run multiple instances.</li>
+                <li>Automated deployment of server instances using AWS CloudFormation.</li>
+                <li>Rewrote the mailing component to use Amazon SES.</li>
+            </ul>
+            <ul class="tech">
+                <li>C#</li>
+                <li>PowerShell</li>
+                <li>Git</li>
+                <li>AWS SES</li>
+                <li>AWS CloudFormation</li>
+                <li>NSubstitute</li>
+                <li>SQL Server</li>
+                <li>AWS EC2</li>
+                <li>AWS S3</li>
+                <li>AWS DynamoDB</li>
+                <li>TeamCity</li>
+                <li>Rake</li>
+                <li>TopShelf</li>
+            </ul>
+        </div>
 
-            <div class="job">
-                <h4>Developer - Applications and Web Team</h4>
-                <h5>BBC Worldwide | Jun 2002 - Oct 2006</h5>
-                <ul class="responsibilities">
-                    <li>Worked on development and enhancements to web applications and websites.</li>
-                </ul>
-                <ul class="tech">
-                    <li>C# 2.0 & 1.1</li>
-                    <li>ASP.NET</li>
-                    <li>NHibernate</li>
-                    <li>SQL Server 2005, 2000 & 7</li>
-                    <li>NUnit</li>
-                    <li>Rhino Mocks</li>
-                    <li>Subversion</li>
-                    <li>TeamCity</li>
-                    <li>Nant</li>
-                    <li>SSRS</li>
-                    <li>DTS</li>
-                    <li>Traditional ASP</li>
-                </ul>
-            </div>
+        <!-- Cocosa Lifestyle -->
+        <div class="job">
+            <h4>Contract Developer</h4>
+            <h5>Cocosa Lifestyle Ltd | Feb 2012 - Oct 2012</h5>
+            <ul class="responsibilities">
+                <li>Initially recruited as a feature developer, promoted to lead a month later when the previous lead moved on.</li>
+                <li>Developed new features on the website.</li>
+                <li>Provided support to the agile processes within the team.</li>
+                <li>Mentored junior developers.</li>
+                <li>Interviewed and participated in recruitment of new members of the development team.</li>
+            </ul>
+            <ul class="tech">
+                <li>C#</li>
+                <li>Episerver</li>
+                <li>Fluent NHibernate</li>
+                <li>jQuery</li>
+                <li>SQL Server 2008</li>
+                <li>TDD with NUnit & Moq</li>
+                <li>IOC with Ninject</li>
+                <li>Team Foundation Server</li>
+                <li>Cruise Control</li>
+                <li>MSBuild</li>
+            </ul>
+        </div>
 
-            <div class="job">
-                <h4>Application Support Developer</h4>
-                <h5>BBC Worldwide | Jul 2000 - Jun 2002</h5>
-                <ul class="responsibilities">
-                    <li>Worked on PI intranet and various B2C/B2B websites using ASP, VB, and SQL Server.</li>
-                    <li>Retrained as .NET developer and built key BBC Worldwide systems, including:</li>
+        <!-- Just-Eat (2010-2012) -->
+        <div class="job">
+            <h4>Contract Developer</h4>
+            <h5>Just-Eat | Nov 2010 - Jan 2012</h5>
+            <ul class="responsibilities">
+                <li>Worked principally within the business-to-business team on applications for managing restaurant and menu information.</li>
+                <li>Implemented the new Partner Centre site (partner.just-eat.co.uk) using MVC 3 and CQRS architecture.</li>
+                <li>Worked on the discount offer platform, allowing restaurant owners to offer reductions on specific days.</li>
+            </ul>
+            <ul class="tech">
+                <li>C#</li>
+                <li>MVC3</li>
+                <li>Fluent NHibernate</li>
+                <li>jQuery</li>
+                <li>SQL Server 2008</li>
+                <li>TDD</li>
+                <li>NUnit</li>
+                <li>Rhino Mocks</li>
+                <li>Castle Windsor</li>
+                <li>TeamCity</li>
+            </ul>
+        </div>
+
+        <!-- TopGear.com -->
+        <div class="job">
+            <h4>Lead Developer</h4>
+            <h5>TopGear.com | July 2009 - October 2010</h5>
+            <ul class="responsibilities">
+                <li>Led a five-person development team using XP development techniques (TDD, pair programming).</li>
+                <li>Worked closely with the product team to estimate, prioritise, and develop site enhancements and features.</li>
+                <li>Redeveloped the homepage, car data section, news page, and video page.</li>
+            </ul>
+            <ul class="tech">
+                <li>C# 3.5</li>
+                <li>NHibernate</li>
+                <li>jQuery</li>
+                <li>SQL Server 2005</li>
+                <li>TDD</li>
+                <li>NUnit</li>
+                <li>Rhino Mocks</li>
+                <li>Akamai Content Control (CDN)</li>
+                <li>Subversion</li>
+                <li>TeamCity</li>
+                <li>Nant</li>
+            </ul>
+        </div>
+
+        <!-- BBC Worldwide -->
+        <div class="job">
+            <h4>Lead Developer - Applications and Web Team</h4>
+            <h5>BBC Worldwide | April 2007 - July 2009</h5>
+            <ul class="responsibilities">
+                <li>Led teams of two or three developers working on development and enhancements to existing and new web applications.</li>
+                <li>Worked mostly in small agile teams using XP development techniques (TDD, pair programming).</li>
+            </ul>
+            <ul class="tech">
+                <li>C# 2.0</li>
+                <li>ASP.NET</li>
+                <li>NHibernate</li>
+                <li>SQL Server 2005 & 2000</li>
+                <li>TDD</li>
+                <li>NUnit</li>
+                <li>Rhino Mocks</li>
+                <li>Subversion</li>
+                <li>TeamCity</li>
+                <li>Nant</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h4>Developer - Applications and Web Team</h4>
+            <h5>BBC Worldwide | June 2002 - Oct 2006</h5>
+            <ul class="responsibilities">
+                <li>Worked on development and enhancements to existing web applications and websites.</li>
+            </ul>
+            <ul class="tech">
+                <li>C# 2.0 & 1.1</li>
+                <li>ASP.NET</li>
+                <li>NHibernate</li>
+                <li>SQL Server 2005, 2000 & 7</li>
+                <li>NUnit</li>
+                <li>Rhino Mocks</li>
+                <li>Subversion</li>
+                <li>TeamCity</li>
+                <li>Nant</li>
+                <li>SQL Server Reporting Services (SSRS)</li>
+                <li>SQL Server Data Transformation Services (DTS)</li>
+                <li>Traditional ASP</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h4>Application Support Developer - Applications and Web Team</h4>
+            <h5>BBC Worldwide | July 2000 - June 2002</h5>
+            <ul class="responsibilities">
+                <li>Worked on various intranet applications, B2C, and B2B websites using ASP, VB, and SQL Server.</li>
+                <li>Retrained as a .NET developer, initially working on a TV products catalogue system.</li>
+                <li>Built, tested, and supported many key BBC Worldwide systems including:
                     <ul>
-                        <li>License & rights acquisitions</li>
-                        <li>Purchasing</li>
-                        <li>B2C consumer websites</li>
-                        <li>B2B & B2C channels websites</li>
-                        <li>B2B websites</li>
-                        <li>HR applications</li>
-                        <li>TV & product catalogues</li>
-                        <li>Business & legal systems</li>
+                        <li>License and rights acquisitions systems</li>
+                        <li>Purchasing systems</li>
+                        <li>B2C consumer websites (www.bbcamericashop.com)</li>
+                        <li>B2B & B2C channel websites (bbcfood.com, bbcprime.com, bbcchannelpartners.com)</li>
+                        <li>B2B websites (www.bbcworldwidetv.com, www.bbcradioint.com)</li>
+                        <li>Human resources applications (appraisals & pay review systems)</li>
+                        <li>Television and other product catalogues</li>
+                        <li>Business and legal affairs systems</li>
                     </ul>
-                </ul>
-            </div>
+                </li>
+            </ul>
+        </div>
 
-            <div class="job">
-                <h4>Older Roles</h4>
-                <ul class="responsibilities">
-                    <li>2000 - 2002: Application Support Developer (BBC Worldwide)</li>
-                    <li>1999 - 2000: Application Support (East Kent Hospitals NHS Trust)</li>
-                    <li>1998 - 1999: Studying, Kingston University</li>
-                    <li>1992 - 1998: Various Roles, Boots the Chemists</li>
-                </ul>
-            </div>
-
-        </section>
+        <!-- Older Roles -->
+        <div class="job">
+            <h4>Older Roles</h4>
+            <ul class="responsibilities">
+                <li>2000 - 2002: Application Support Developer (BBC Worldwide)</li>
+                <li>1999 - 2000: Application Support (East Kent Hospitals NHS Trust)</li>
+                <li>1998 - 1999: Studying, Kingston University</li>
+                <li>1992 - 1998: Various Roles, Boots the Chemists</li>
+            </ul>
+        </div>
 
         <!-- Education -->
-        <section class="education">
-            <h3>Education</h3>
+        <div class="education">
+            <h4>Education</h4>
             <ul>
-                <li class="edu-item">MSc Information Technology (Software Development) – Kingston University | 2000</li>
-                <li class="edu-item">BPharm Pharmacy – School of Pharmacy, University of London | 1992</li>
+                <li>2000: MSc Information Technology (Software Development) – Kingston University</li>
+                <li>1992: BPharm Pharmacy – School of Pharmacy, University of London</li>
             </ul>
-        </section>
-
+        </div>
     </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h3>Contact</h3>
+            <p>GitHub: <a href="https://github.com/vandatech">github.com/vandatech</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/vandatech">linkedin.com/in/vandatech</a></p>
+        </div>
+    </section>
 </body>
+
 </html>
