@@ -65,6 +65,7 @@ header.header nav ul li a {
 /* ---------- Sections ---------- */
 .section {
     padding: 4rem 0;
+    scroll-margin-top: 200px;
 }
 
 .section h3 {
