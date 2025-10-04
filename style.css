@@ -1,3 +1,13 @@
+:root {
+    --primary-color: #0077cc;
+    --background-color-light: #f9f9f9;
+    --background-color-white: #ffffff;
+    --text-color-dark: #333;
+    --text-color-medium: var(--text-color-medium);
+    --text-color-gray: var(--text-color-gray); /* New variable for var(--text-color-gray) */
+    --text-color-black: #000; /* Using #000 for consistency with 'black' */
+}
+
 /* ---------- Global Styles ---------- */
 * {
     margin: 0;
@@ -9,21 +19,19 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--background-color-light);
+    color: var(--text-color-dark);
 }
 h1 a{
-    color: black;
+    color: var(--text-color-black);
     text-decoration: none;
-
 }
 h1 a:hover{
-    color: black;
+    color: var(--text-color-black);
     text-decoration: none;
-
 }
 a {
-    color: #0077cc;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -39,7 +47,7 @@ a:hover {
 
 /* ---------- Header ---------- */
 header.header {
-    background-color: #ffffff;
+    background-color: var(--background-color-white);
     padding: 2rem 0;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     position: sticky;
@@ -56,7 +64,7 @@ header.header h1 {
 header.header h2 {
     font-weight: 500;
     font-size: 1.2rem;
-    color: #666;
+    color: var(--text-color-medium);
 }
 
 header.header nav ul {
@@ -81,7 +89,7 @@ header.header nav ul li a {
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
-    border-bottom: 2px solid #0077cc;
+    border-bottom: 2px solid var(--primary-color);
     display: inline-block;
     padding-bottom: 0.3rem;
 }
@@ -99,7 +107,7 @@ header.header nav ul li a {
 }
 
 .project-card {
-    background-color: #ffffff;
+    background-color: var(--background-color-white);
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
@@ -118,12 +126,12 @@ header.header nav ul li a {
 
 .project-card p {
     font-size: 0.95rem;
-    color: #555;
+    color: var(--text-color-gray);
 }
 
 /* CV Section Cards */
 .cv .job {
-    background-color: #fff;
+    background-color: var(--background-color-white);
     padding: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 12px;
@@ -144,7 +152,7 @@ header.header nav ul li a {
 .cv .job h5 {
     font-weight: 500;
     margin-bottom: 1rem;
-    color: #666;
+    color: var(--text-color-medium);
 }
 
 .cv .job ul {
@@ -155,4 +163,3 @@ header.header nav ul li a {
 .cv .job ul li {
     margin-bottom: 0.5rem;
 }
-
